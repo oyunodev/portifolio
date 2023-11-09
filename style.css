@@ -21,9 +21,6 @@ body{
 .titulo{
     color: white;
     font-size: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: monospace;
     text-align: center;
 }
@@ -39,10 +36,6 @@ body{
     cursor: pointer;
 }
 
-.linkgithub, .linkyoutube, .linktwitter{
-    text-decoration: none;
-}
-
 .hierarquias{
     color: white;
 }
@@ -56,11 +49,6 @@ body{
     color: white;
 }
 
-.botao{
-    text-align: center;
-    color: white;
-    text-decoration: none;
-}
 
 .botao2{
     text-align: center;
@@ -81,11 +69,6 @@ body{
     margin: 4em;
 }
 
-footer{
-    position: fixed;
-    width: 100%;
-    padding: 10px;
-}
 
 .footer2{
     position: fixed;
@@ -100,4 +83,10 @@ main{
     min-width: 400px;
     max-width: 800px;
     margin: auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
