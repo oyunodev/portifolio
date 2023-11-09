@@ -1,8 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .samurai{
-    text-align: center;
     color: white;
-    cursor: pointer;
-    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    text-align: center;
+    height: auto;
 }
 
 body{
@@ -12,8 +20,12 @@ body{
 
 .titulo{
     color: white;
-    text-align: center;
     font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    text-align: center;
 }
 
 @font-face {
@@ -21,23 +33,13 @@ body{
     src: url(Heavitas.ttf);
 }
 
-.botaosamuro{
+.botaosamurai{
     color: white;
     text-decoration: none;
+    cursor: pointer;
 }
 
-.linkgithub{
-    color: white;
-    text-decoration: none;
-}
-
-.linkyoutube{
-    color: white;
-    text-decoration: none;
-}
-
-.linktwitter{
-    color: white;
+.linkgithub, .linkyoutube, .linktwitter{
     text-decoration: none;
 }
 
@@ -54,28 +56,48 @@ body{
     color: white;
 }
 
-.voltar{
+.botao{
     text-align: center;
+    color: white;
+    text-decoration: none;
 }
 
+.botao2{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
 
 .lainfoto{
-    text-align: center;
-    color: white;
-}
-
-.titulow{
-    color: white;
-    text-align: center;
-    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .texto{
     text-align: center;
     color: white;
+    margin: 4em;
 }
 
-.titulopag2{
-    color: white;
-    text-align: center;
+footer{
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+}
+
+.footer2{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+main{
+    min-width: 400px;
+    max-width: 800px;
+    margin: auto;
 }
