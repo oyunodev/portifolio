@@ -1,0 +1,81 @@
+.samurai{
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+body{
+    background-color: black;
+    cursor: default;
+}
+
+.titulo{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+
+@font-face {
+    font-family: heavitas;
+    src: url(Heavitas.ttf);
+}
+
+.botaosamuro{
+    color: white;
+    text-decoration: none;
+}
+
+.linkgithub{
+    color: white;
+    text-decoration: none;
+}
+
+.linkyoutube{
+    color: white;
+    text-decoration: none;
+}
+
+.linktwitter{
+    color: white;
+    text-decoration: none;
+}
+
+.hierarquias{
+    color: white;
+}
+
+.listaa{
+    text-align: center;
+    color: white;
+}
+
+.listaproj{
+    color: white;
+}
+
+.voltar{
+    text-align: center;
+}
+
+
+.lainfoto{
+    text-align: center;
+    color: white;
+}
+
+.titulow{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+
+.texto{
+    text-align: center;
+    color: white;
+}
+
+.titulopag2{
+    color: white;
+    text-align: center;
+}
