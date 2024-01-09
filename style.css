@@ -42,8 +42,20 @@ body{
 
 .listaproj{
     color: white;
+    margin: 4em;
 }
 
+.link{
+    color: white;
+}
+
+.botao3{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
 
 .botao2{
     text-align: center;
